@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleCita.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="Loggin.html"><img src="user.png" width="20px" alt=""></a>
+
+            <ul class="nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Notificaciones.html">Unetenos</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="frmCotizar.html">Compra repuestos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="frmVenta.html">Venta repuestos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Cita.html">Agendar cita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="grua.html">Servicio de Grua</a>
+                </li>
+            </ul>
+        </nav>
+	</header>
+    <section class="form-cita">
+        <h4>Hacer una cita a domicilio</h4>
+        <input class="controls" type="date" name="fecha" id="fecha" max="localdate">
+        
+        <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Ingrese su Nombre">
+        
+        <p>Tipo de mantenimiento</p>
+
+        <input type="radio" name="mantenimiento" id="Correctivo">
+        <label for="Correctivo">Correctivo</label>
+        <input type="radio" name="mantenimiento" id="Preventivo">
+        <label for="Preventivo">Preventivo</label>
+        <br/>
+        <br/>
+        <p>Descripcion: Reparacion, revision o mantenimiento a efecturar.</p>
+        <br/>
+        <TEXTAREA COLS="45" ROWS="5" NAME="comentario"></TEXTAREA>
+        <br/>
+        <br/>
+        <p>Adjuntar fotografia(Opcional)</p>
+        <input type="file">
+        <br/>
+        <br/>
+        <br/>
+        <input required class="controls" type="text" name="Direccion" id="Direccion" placeholder="Ingrese su Direccion">
+        <br/>
+        <br/>
+        <P><a href="#">Crear Nueva cita</a></P>
+    </section>
+</body>
+</html>

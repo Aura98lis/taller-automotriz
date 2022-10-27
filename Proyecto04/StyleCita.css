@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-cita {
+    width: 400px;
+    background: #0a183f83;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-cita h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url(Loggin.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #188f53;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.form-cita p {
+    height: 40px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.form-cita a {
+    width: 100%;
+    background: #3074b8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #188f53;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: aliceblue;
+    position: relative;
+}
+
